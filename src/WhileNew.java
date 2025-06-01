@@ -5,7 +5,7 @@ public class WhileNew {
         int num =sc.nextInt();
         int sum = 0;
         while (num !=-1){
-            sum +=num;
+            sum +=num; // sum = sum + num
             num=sc.nextInt();
         }
         System.out.println(sum);
