@@ -2,7 +2,7 @@ package Target_Sum;
 
 import java.util.Scanner;
 
-public class Sun_in_Arrays {
+public class Sum_in_Arrays {
     static int sum_In_Arrays(int[] arr, int x){
         int sum = 0;
         for (int i = 0; i<arr.length; i++){ // First Number
