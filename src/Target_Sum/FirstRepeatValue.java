@@ -8,7 +8,7 @@ public class FirstRepeatValue {
         for (int i = 0; i< arr.length; i++){
             for (int j = i+1; j< arr.length; j++){
                 if (arr[i] == arr[j]){
-                    ans = arr[j];
+                    ans = arr[j]; // also we can use arr[i] or arr[j]
                     return ans;
                 }
             }
