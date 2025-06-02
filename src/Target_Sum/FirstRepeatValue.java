@@ -26,6 +26,6 @@ public class FirstRepeatValue {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println(firstRepeatValue(arr));
+        System.out.println("First Repeating Number is : "+firstRepeatValue(arr));
     }
 }
