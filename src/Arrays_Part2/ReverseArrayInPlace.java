@@ -15,7 +15,6 @@ public class ReverseArrayInPlace {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     static void reverseArrayInPlace(int[] arr) {
         int i = 0, j = arr.length - 1;
         while (i < j) {
@@ -24,7 +23,6 @@ public class ReverseArrayInPlace {
             j--;
         }
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size : ");
