@@ -3,3 +3,5 @@ Que 1) Swap :- Given 2 integer a and b. swap the 2 given values using temporary 
 Que 2) Swap2 :- Given two integer a and b. swap  the 2 given values using sum and difference methods
 
 Que 3) ArrayReverse :- Reverse an array consisting of integer values
+
+Que 4) ReverseArrayInPlace :- In place array reverse
