@@ -5,3 +5,8 @@ Que 2) Swap2 :- Given two integer a and b. swap  the 2 given values using sum an
 Que 3) ArrayReverse :- Reverse an array consisting of integer values
 
 Que 4) ReverseArrayInPlace :- In place array reverse
+
+Que 5)
+
+Rotate the given array 'a' by k steps, where k is non-negative.
+NOTE :- k can be greater then n as well.
