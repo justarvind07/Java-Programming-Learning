@@ -4,9 +4,9 @@ public class Swap {
     static void swap(int a, int b) {
         System.out.println("Original values a = " + a + ", b = " + b);
         int temp = 0;
-        temp = a;
-        a = b;
-        b = temp;
+        temp = a; // temp = 5
+        a = b;      // a = 7
+        b = temp;   // b = 5
         System.out.println("Values after swap a = " + a + ", b = " + b);
 
 

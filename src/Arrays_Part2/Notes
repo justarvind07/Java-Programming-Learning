@@ -1,1 +1,5 @@
-Que 1 Swap :- Given 2 integer a and b. swap the 2 given values using temporary variable.
+Que 1) Swap :- Given 2 integer a and b. swap the 2 given values using temporary variable.
+
+Que 2) Swap2 :- Given two integer a and b. swap  the 2 given values using sum and difference methods
+
+Que 3)  :- Reverse an array consisting of integer values
