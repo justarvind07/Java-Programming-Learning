@@ -7,17 +7,13 @@ import java.util.Scanner;
     NOTE:- Value of all the elements in the arrays is less then 10 to the power of 5
 */
 public class FindInArrays {
-    static void findInArrays(int[] arr, int k) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] == k) {
-                System.out.println("Found " + arr[i] + " at index position " + i);
-            }
-            System.out.println("Enter k ");
-            int x = sc.nextInt();
+    static int[] makeFrequencyArray(int[] arr){
+        int[] freq = new int[100005];
+        for (int i =0; i< arr.length; i++){
+            freq[arr[i]]++;
         }
+        return freq;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
@@ -27,9 +23,23 @@ public class FindInArrays {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.print("Enter the number that you want to check: ");
-        int k = sc.nextInt();
-        findInArrays(arr,k);
+
+        int[] freq = makeFrequencyArray(arr);
+
+        System.out.print("Enter number of queries: ");
+        int q = sc.nextInt();
+        while (q>0){
+            System.out.print("Enter number to be searched in arrays: ");
+            int x= sc.nextInt();
+            if (freq[x]>0){
+                System.out.println("Yes");
+            }
+            else {
+                System.out.println("No");
+            }
+
+            q--;
+        }
 
     }
 }
