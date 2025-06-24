@@ -4,7 +4,8 @@ Q1:- (Arrays sort)    Start an array consisting of only 0s and 1s.
 
 Q2:- (Arrays sort 01) sort an array consisting of only 0s and 1s.
 
-Q3:-
+Q3:-    Given an arrays of integer 'a', move all the even integers at the beginning of the array followed by all the odd integers. The relative order of odd or even integers dies not matter. Return
+any array the satisfies the condition.
 
 Q4:-
 
