@@ -9,6 +9,17 @@ public class Non_Decreasing_Square_Arrays {
         }
         System.out.println();
     }
+    static void swapArray(int[] arr){
+        for (int i =0; i< arr.length; i++){
+            for (int j = i+1; j< arr.length;j++){
+                if (arr[i]>arr[j]){
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+    }
 
     static int[] non_Decreasing_Square_Arrays(int[] arr) {
         int n = arr.length;
@@ -35,6 +46,10 @@ public class Non_Decreasing_Square_Arrays {
         int[] sqr = non_Decreasing_Square_Arrays(arr);
         System.out.print("After Square each numbers: ");
         System.out.println();
+        printArrays(sqr);
+
+        swapArray(sqr);
+        System.out.print("After sort: ");
         printArrays(sqr);
     }
 }
