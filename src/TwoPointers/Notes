@@ -10,7 +10,7 @@ any array the satisfies the condition.
 
 Q4:- (Non_Decreasing_Square_Arrays) Given an integer array 'a' sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 
-Q5:-
+Q5:-  (PrefixSum)  Given an integer array 'a', return the prefix sum/running sum in the same array without creating a new array.
 
 Q6:-
 
