@@ -13,12 +13,10 @@ public class PrefixSum {
         int left = 0;
         int right = 1;
         int n = arr.length;
-        while (right< n-1){
+        while (right< n){
             if (left<right){
                 arr[right] = arr[left]+arr[right];
                 left++;
-            }
-            else {
                 right++;
             }
         }

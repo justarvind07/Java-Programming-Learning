@@ -12,7 +12,8 @@ Q4:- (Non_Decreasing_Square_Arrays) Given an integer array 'a' sorted in non-dec
 
 Q5:-  (PrefixSum)  Given an integer array 'a', return the prefix sum/running sum in the same array without creating a new array.
 
-Q6:-
+Q6:-    Given an array of integer of size n. Answer q queries where you need to print the sum of values in a given range of indices from 1 to r(both included)
+NOTE:   The value of 1 and r in queries follow 1-based indexing.
 
 Q7:-
 
