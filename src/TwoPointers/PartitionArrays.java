@@ -3,12 +3,6 @@ package TwoPointers;
 import java.util.Scanner;
 
 public class PartitionArrays {
-    static void printArrays(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
 
     static int findSumArrays(int[] arr) {
         int total_Sum = 0;
